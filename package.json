@@ -1,0 +1,13 @@
+{
+  "name": "selfoss-electron",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "setup": "npm i && sed -e \"s,INSTALL_FOLDER,$PWD,g\" Selfoss.desktop.example > Selfoss.desktop",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^1.6.1",
+    "electron-window-state": "^4.0.2"
+  }
+}

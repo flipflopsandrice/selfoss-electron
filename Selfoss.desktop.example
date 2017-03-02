@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Keywords=Sefloss
+Icon=INSTALL_FOLDER/selfoss-icon.png
+Name=Sefloss
+Terminal=false
+Exec=/bin/bash -c 'cd INSTALL_FOLDER && npm start'
+Hidden=false
+Name[en_US]=Sefloss
