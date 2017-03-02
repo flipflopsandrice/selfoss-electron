@@ -2,6 +2,8 @@
   "name": "selfoss-electron",
   "version": "0.1.0",
   "main": "main.js",
+  "author": "Erik Beijerman <erik@thorongil.com>",
+  "license": "MIT",
   "scripts": {
     "setup": "npm i && sed -e \"s,INSTALL_FOLDER,$PWD,g\" Selfoss.desktop.example > Selfoss.desktop",
     "start": "electron ."

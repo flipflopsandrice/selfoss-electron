@@ -9,5 +9,4 @@ Then, change the URL to your own selfoss installation (optionally passing user/p
 
 ## Run
 
-Run `npm start`.
-
+Run `npm start` or double-click `Selfoss.desktop` (Ubuntu-only).
